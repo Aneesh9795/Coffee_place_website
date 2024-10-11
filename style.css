@@ -1,0 +1,312 @@
+* {margin: 0px;
+  padding: 0px;
+}
+
+#container {
+  width: 100%;
+  color: white;
+}
+.back {
+  background: brown;
+}
+.back1 {
+  background: grey;
+}
+
+.wapper {
+  width: 960px;
+  margin: auto;
+}
+
+h3 {
+  margin-left: 40px;
+  padding: 3px;
+}
+h2 {
+  margin-left: 300px;
+  margin-bottom: 10px;
+  color: yellow;
+  font-weight: bold;
+}
+#head {
+  width: 100%;
+  background: yellow;
+}
+.menu1 {
+  width: 1000px;
+  margin: auto;
+}
+#logo {
+  width: 220px;
+  height: 110px;
+  display: inline-block;
+}
+#name {
+  width: 770px;
+  height: 110px;
+  display: inline-block;
+}
+
+ul li {
+  width: 186px;
+  display: inline-block;
+  height: 35;
+  line-height: 35px;
+  text-align: center;
+}
+ul li a {
+  text-decoration: none;
+  display: block;
+  color: white;
+}
+
+ul li a:hover {
+  color: black;
+  background: orange;
+}
+
+h1 {
+  color: red;
+  margin-left: 50px;
+}
+#outbox {
+  width: 940px;
+  overflow: hidden;
+  border: 3px solid green;
+  /* Box shadow */
+  box-shadow: 5px 5px 10px green;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+#slider {
+  position: relative;
+  width: 2820px;
+  animation: king 15s infinite;
+}
+#slider img {
+  float: left;
+}
+
+/* Movement animation... */
+@keyframes king {
+  0% {
+    left: 0px;
+  }
+  27% {
+    left: 0px;
+  }
+  33% {
+    left: -940px;
+  }
+  60% {
+    left: -940px;
+  }
+  67% {
+    left: -1880px;
+  }
+  93% {
+    left: -1880px;
+  }
+  100% {
+    left: -2820px;
+  }
+}
+
+#mad2 {
+  width: 100%;
+  height: auto;
+  background: grey;
+}
+#mad2 img {
+  width: 260px;
+  height: 190px;
+  margin: 15px;
+  box-shadow: 5px 5px 10px yellow;
+  padding: 12px;
+  border: 1px solid yellow;
+  border-radius: 10px;
+}
+#mad2 img:hover {
+  transform: scale(1.1);
+}
+
+#p1 {
+  color: white;
+  padding: 10px;
+}
+
+#div1 {
+  width: 410px;
+  float: left;
+  margin-top: 25px;
+}
+
+#coffee {
+  width: 360px;
+  height: 300px;
+  margin: 15px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px yellow;
+  padding: 12px;
+  border: 1px solid yellow;
+  border-radius: 10px;
+}
+#div2 {
+  width: 500;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+#clear {
+  clear: both;
+}
+#table1 {
+  float: left;
+  margin-right: 25px;
+}
+#table2 {
+  float: left;
+}
+#table3 {
+  float: left;
+
+  margin-left: 40px;
+}
+#table4 {
+  float: left;
+  margin-left: 3px;
+}
+h5 {
+  color: yellow;
+  margin-top: 10px;
+  font-size: 20px;
+}
+#p2 {
+  text-align: justify;
+  float: left;
+  width: 400px;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+#p3 {
+  text-align: justify;
+  padding-bottom: 15px;
+}
+
+#c8 {
+  width: 480px;
+  height: 400px;
+  border: 1px solid yellow;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 12px;
+  float: left;
+  box-shadow: 5px 5px 10px yellow;
+  margin: 15px;
+}
+
+h4 {
+  margin-left: 50px;
+  color: blue;
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+#p4 {
+  color: white;
+  font-size: 18px;
+  margin-left: 50px;
+}
+
+#formtable {
+  width: 200px;
+  float: left;
+}
+#formtable1 {
+  width: 200px;
+  float: left;
+}
+#input {
+  width: 200px;
+  padding: 5px;
+  height: 30px;
+}
+th {
+  width: 200px;
+  padding: 5px;
+  height: 45px;
+  margin-top: 20px;
+}
+#button1 {
+  width: 100px;
+  height: 25px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-left: 150px;
+  border: 1px;
+}
+
+#button2 {
+  width: 100px;
+  height: 25px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: 1px;
+}
+.button:hover {
+  background: orange;
+  color: white;
+}
+
+#imgbook {
+  width: 450;
+  float: left;
+  margin: 20px;
+  margin-top: 20px;
+  box-shadow: 5px 5px 10px black;
+  padding: 12px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.fh1 {
+  padding-top: 20px;
+}
+#div_left {
+  margin-top: 15px;
+  width: 600px;
+  display: inline-block;
+}
+#div_left img {
+  width: 250px;
+  height: 210px;
+  border: 1px solid red;
+  padding: 5px;
+  margin: 8px;
+  border-radius: 10px;
+}
+#div_left_h3 {
+  margin-left: 10px;
+  pading: 0px;
+  color: black;
+}
+
+#div_right {
+  margin-top: 15px;
+  width: 320px;
+  float: right;
+}
+#lastest_news_h2 {
+  color: black;
+  margin: 0px;
+  padding: 0px;
+}
+#lastest_news img {
+  width: 120px;
+  height: 100px;
+  padding: 3px;
+  margin: 3px;
+  border: 2px solid brown;
+  border-radius: 5px;
+}
